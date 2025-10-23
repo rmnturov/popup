@@ -1,0 +1,31 @@
+/* FormField.css */
+/* .form-field styles can be added here when needed */
+
+.form-field-label {
+  display: block;
+  color: var(--kbq-foreground-contrast);
+  margin-bottom: 8px;
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+}
+
+.form-field-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-field-description {
+  color: var(--kbq-foreground-contrast-secondary);
+  margin-top: 8px;
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+  font-size: var(--kbq-typography-text-compact-font-size);
+  line-height: var(--kbq-typography-text-compact-line-height);
+}

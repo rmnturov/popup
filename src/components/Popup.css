@@ -1,0 +1,60 @@
+/* Popup.css */
+.popup {
+  margin-top: 4px;
+  width: 100%;
+  max-width: 20rem;
+  background-color: var(--kbq-background-card);
+  border: none;
+  border-radius: 8px;
+  box-shadow: var(--kbq-shadow-popup);
+  overflow: visible;
+  padding: 4px 0;
+  
+  /* Анимация появления */
+  opacity: 0;
+  transform: translateY(-8px) scale(0.95);
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+  animation: popup-enter 0.2s ease-out forwards;
+}
+
+@keyframes popup-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.popup.popup-exiting {
+  animation: popup-exit 0.15s ease-in forwards;
+}
+
+@keyframes popup-exit {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.95);
+  }
+}
+
+.popup-fixed {
+  position: fixed;
+}
+
+.popup-absolute {
+  position: absolute;
+}
+
+.popup-top-layer {
+  z-index: 30;
+}
+
+.popup-normal-layer {
+  z-index: 10;
+}

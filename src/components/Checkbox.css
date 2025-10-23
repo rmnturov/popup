@@ -1,0 +1,36 @@
+/* Checkbox.css */
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox-disabled {
+  cursor: not-allowed;
+}
+
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+  color: var(--kbq-icon-theme);
+  border-radius: 4px;
+  margin: 2px 0 0 0;
+}
+
+.checkbox-input:disabled {
+  opacity: var(--kbq-opacity-disabled);
+}
+
+.checkbox-label {
+  color: var(--kbq-foreground-contrast);
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+}
+
+.checkbox-label-disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,36 @@
+/* TopBar.css */
+.top-bar {
+  position: sticky;
+  top: 0;
+  background-color: var(--kbq-background-card);
+  color: var(--kbq-foreground-contrast);
+  padding: 12px 24px;
+  box-shadow: var(--kbq-shadow-overflow-normal-bottom);
+}
+
+.top-bar-title {
+  font-family: var(--kbq-typography-text-big-strong-font-family);
+  font-size: var(--kbq-typography-text-big-strong-font-size);
+  line-height: var(--kbq-typography-text-big-strong-line-height);
+  font-weight: var(--kbq-typography-text-big-strong-font-weight);
+  letter-spacing: var(--kbq-typography-text-big-strong-letter-spacing);
+  margin: 0;
+}
+
+.top-bar-subtitle {
+  margin: 2px 0px 4px 0px;
+  color: var(--kbq-foreground-contrast-secondary);
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+}
+
+.top-bar-top-layer {
+  z-index: 40;
+}
+
+.top-bar-normal-layer {
+  z-index: 10;
+}

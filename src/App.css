@@ -1,0 +1,106 @@
+/* App.css */
+.app {
+  min-height: 100vh;
+  background-color: var(--kbq-background-bg);
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+  line-height: var(--kbq-typography-text-normal-line-height);
+}
+
+.app-container {
+  display: flex;
+}
+
+.app-content {
+  flex: 1;
+  position: relative;
+}
+
+.app-main-content {
+  padding: 24px 24px 80px 24px;
+  max-width: 80ch; /* 3xl equivalent */
+}
+
+.app-content-section {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+
+.app-card {
+  /* background-color: var(--kbq-background-card);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: var(--kbq-shadow-card); */
+  margin-bottom: 16px;
+}
+
+.app-card-white {
+  /* background-color: var(--kbq-background-card);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--kbq-shadow-card); */
+  margin-bottom: 16px;
+}
+
+.select-card {
+  margin-bottom: 20px;
+}
+
+.app-title {
+  margin-bottom: 8px;
+  color: var(--kbq-foreground-contrast);
+  font-family: var(--kbq-typography-text-normal-strong-font-family);
+  font-size: var(--kbq-typography-text-normal-strong-font-size);
+  line-height: var(--kbq-typography-text-normal-strong-line-height);
+  font-weight: var(--kbq-typography-text-normal-strong-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-strong-letter-spacing);
+}
+
+.app-title:first-child, .app-title-white:first-child {
+  margin-top: 0;
+}
+
+.app-title-white {
+  margin-bottom: 8px;
+  color: var(--kbq-foreground-contrast);
+  font-family: var(--kbq-typography-text-normal-strong-font-family);
+  font-size: var(--kbq-typography-text-normal-strong-font-size);
+  line-height: var(--kbq-typography-text-normal-strong-line-height);
+  font-weight: var(--kbq-typography-text-normal-strong-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-strong-letter-spacing);
+  margin-top: 16px;
+}
+
+.app-text {
+  color: var(--kbq-foreground-contrast);
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.app-text:last-child, .app-text-white:last-child {
+  margin-bottom: 0;
+}
+
+.app-text-white {
+  color: var(--kbq-foreground-contrast);
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+  margin-top: 0;
+  margin-bottom: 8px
+}
+
+.app-text-margin {
+  margin-bottom: 0px;
+}

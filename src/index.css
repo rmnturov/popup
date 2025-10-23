@@ -1,0 +1,26 @@
+/* Koobiq Design Tokens */
+@import '@koobiq/design-tokens/web/css-tokens.css';
+@import '@koobiq/design-tokens/web/css-tokens-light.css';
+@import '@koobiq/design-tokens/web/css-tokens-font.css';
+
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
+}
+
+html {
+  overscroll-behavior: none;
+}

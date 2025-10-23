@@ -1,0 +1,103 @@
+/* SidePanel.css */
+.side-panel {
+  width: 320px; /* w-96 */
+  background-color: var(--kbq-background-bg-secondary);
+  border-left: 1px solid var(--kbq-line-contrast-less);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.side-panel-title {
+  margin-bottom: 12px;
+  margin-top: 4px;
+  color: var(--kbq-foreground-contrast);
+  font-family: var(--kbq-typography-text-big-strong-font-family);
+  font-size: var(--kbq-typography-text-big-strong-font-size);
+  line-height: var(--kbq-typography-text-big-strong-line-height);
+  font-weight: var(--kbq-typography-text-big-strong-font-weight);
+  letter-spacing: var(--kbq-typography-text-big-strong-letter-spacing);
+}
+
+.side-panel-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.side-panel-section {
+  /* border-top: 1px solid var(--kbq-line-contrast-less); */
+  padding-top: 0px;
+}
+
+.side-panel-section-disabled {
+  opacity: 0.5;
+}
+
+.side-panel-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.side-panel-radio-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.side-panel-radio-input {
+  width: 16px;
+  height: 16px;
+  margin: 2px 0 0 0;
+  padding: 0;
+  color: var(--kbq-icon-theme);
+}
+
+.side-panel-radio-input:disabled {
+  opacity: 0.5;
+}
+
+.side-panel-radio-label {
+  color: var(--kbq-foreground-contrast);
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+  font-size: var(--kbq-typography-text-normal-font-size);
+
+}
+
+.side-panel-radio-label-disabled {
+  cursor: not-allowed;
+}
+
+.side-panel-instructions {
+  border-top: 1px solid var(--kbq-line-contrast-less);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.side-panel-instructions-title {
+  color: var(--kbq-foreground-contrast);
+  margin-bottom: 8px;
+  
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+}
+
+.side-panel-instructions-text {
+  color: var(--kbq-foreground-contrast-secondary);
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+}

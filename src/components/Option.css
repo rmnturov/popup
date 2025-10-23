@@ -1,0 +1,36 @@
+/* Option.css */
+.option {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  transition: background-color 0.15s ease-in-out;
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+  letter-spacing: var(--kbq-typography-text-normal-letter-spacing);
+  color: var(--kbq-foreground-contrast);
+  padding: 0 4px;
+}
+
+.inner {
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.option:hover .inner {
+  background-color: var(--kbq-states-background-transparent-hover);
+}
+
+.option-selected .inner {
+  background-color: var(--kbq-background-contrast-less);
+}
+
+/* .option-default styles can be added here when needed */
+
+.option .inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}

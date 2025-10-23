@@ -1,0 +1,84 @@
+/* Select.css */
+.select {
+  position: relative;
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight);
+}
+
+.select-button {
+  width: 100%;
+  max-width: 280px;
+  background-color: var(--kbq-background-bg);
+  border: 1px solid var(--kbq-line-contrast-fade);
+  border-radius: 8px;
+  padding: 6px 12px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: outline 0.15s ease-in-out;
+}
+
+/* .select-button:hover styles can be added here when needed */
+
+.select-button:focus {
+  outline: 2px solid var(--kbq-states-line-focus);
+  outline-offset: -1px;
+}
+
+.select-text {
+  color: var(--kbq-foreground-contrast);
+  font-family: var(--kbq-typography-text-normal-font-family);
+  font-size: var(--kbq-typography-text-normal-font-size);
+  line-height: var(--kbq-typography-text-normal-line-height);
+  font-weight: var(--kbq-typography-text-normal-font-weight); 
+}
+
+.select-icon {
+  width: 16px;
+  height: 16px;
+  color: var(--kbq-icon-contrast-fade);
+  fill: var(--kbq-icon-contrast-fade);
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(0deg);
+}
+
+.select-icon-open {
+  transform: rotate(0deg);
+}
+
+.select-dropdown {
+  margin-top: 4px;
+  width: 100%;
+  max-width: 20rem;
+  background-color: var(--kbq-background-card);
+  border: none;
+  border-radius: 8px;
+  box-shadow: var(--kbq-shadow-popup);
+  overflow: hidden;
+}
+
+.select-dropdown-fixed {
+  position: fixed;
+}
+
+.select-dropdown-absolute {
+  position: absolute;
+}
+
+.select-dropdown-top-layer {
+  z-index: 30;
+}
+
+.select-dropdown-normal-layer {
+  z-index: 10;
+}
+
+.select-options {
+  max-height: 16rem;
+  overflow-y: auto;
+  overscroll-behavior: auto;
+}
+
