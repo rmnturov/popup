@@ -32,7 +32,7 @@ export default function SidePanel({
                 onChange={() => setScrollMode('native')}
                 className="side-panel-radio-input"
               />
-              <span className="side-panel-radio-label">Движется вместе со страницей</span>
+              <span className="side-panel-radio-label">1. Движется вместе со страницей</span>
             </label>
             <label className="side-panel-radio-item">
               <input
@@ -41,7 +41,7 @@ export default function SidePanel({
                 onChange={() => setScrollMode('fixed')}
                 className="side-panel-radio-input"
               />
-              <span className="side-panel-radio-label">Блокирует прокрутку</span>
+              <span className="side-panel-radio-label">2. Блокирует прокрутку</span>
             </label>
             <label className="side-panel-radio-item">
               <input
@@ -50,7 +50,7 @@ export default function SidePanel({
                 onChange={() => setScrollMode('close-on-scroll')}
                 className="side-panel-radio-input"
               />
-              <span className="side-panel-radio-label">Закрывается при прокрутке</span>
+              <span className="side-panel-radio-label">3. Закрывается при прокрутке</span>
             </label>
             <label className="side-panel-radio-item">
               <input
@@ -59,7 +59,7 @@ export default function SidePanel({
                 onChange={() => setScrollMode('hide-out-of-view')}
                 className="side-panel-radio-input"
               />
-              <span className="side-panel-radio-label">Пропадает при выходе за видимую область</span>
+              <span className="side-panel-radio-label">4. Пропадает при выходе за видимую область</span>
             </label>
             <label className="side-panel-radio-item">
               <input
@@ -68,7 +68,7 @@ export default function SidePanel({
                 onChange={() => setScrollMode('hide-reopen')}
                 className="side-panel-radio-input"
               />
-              <span className="side-panel-radio-label">Пропадает при выходе и открывается снова при возврате в видимую область</span>
+              <span className="side-panel-radio-label">5. Пропадает при выходе и открывается снова при возврате в видимую область</span>
             </label>
           </div>
         </FormField>
